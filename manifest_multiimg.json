@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_multilingua.json",
+  "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_multiimg.json",
   "type": "Manifest",
   "label": {
     "it": [
@@ -490,4 +490,5 @@
       ]
     }
   ]
+
 }
