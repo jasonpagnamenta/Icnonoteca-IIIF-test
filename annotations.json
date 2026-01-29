@@ -1,32 +1,64 @@
-[
-  {
-    "label": "person",
-    "confidence": 0.67,
-    "bounding_box": {
-      "x1": 1166,
-      "y1": 572,
-      "x2": 1194,
-      "y2": 622
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/annotations/annotations.json",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/annotations/anno-1",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "value": "person (confidence: 0.67)",
+        "language": "en",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_annotations.json/canvas/1",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=1166,572,28,50"
+        }
+      }
+    },
+    {
+      "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/annotations/anno-2",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "value": "person (confidence: 0.54)",
+        "language": "en",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_annotations.json/canvas/1",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=1124,577,31,44"
+        }
+      }
+    },
+    {
+      "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/annotations/anno-3",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "value": "boat (confidence: 0.45)",
+        "language": "en",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_annotations.json/canvas/1",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=412,623,317,113"
+        }
+      }
     }
-  },
-  {
-    "label": "person",
-    "confidence": 0.54,
-    "bounding_box": {
-      "x1": 1124,
-      "y1": 577,
-      "x2": 1155,
-      "y2": 621
-    }
-  },
-  {
-    "label": "boat",
-    "confidence": 0.45,
-    "bounding_box": {
-      "x1": 412,
-      "y1": 623,
-      "x2": 729,
-      "y2": 736
-    }
-  }
-]
+  ]
+}
