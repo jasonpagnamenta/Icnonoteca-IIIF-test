@@ -461,10 +461,11 @@
           ]
         }
       ],
-  "annotations": [
-    {
-      "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/annotations/annotations.json",
-      "type": "AnnotationPage"
+      "annotations": [
+        {
+          "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/annotations/annotations.json",
+          "type": "AnnotationPage"
+        }
+      ]
     }
-  ]
-}
+]
