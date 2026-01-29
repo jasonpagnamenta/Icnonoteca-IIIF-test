@@ -436,17 +436,17 @@
   ],
   "items": [
     {
-      "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_multilingua.json/canvas/1",
+      "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_annotations.json/canvas/1",
       "type": "Canvas",
       "width": 1280,
       "height": 881,
       "items": [
         {
-          "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_multilingua.json/page/1",
+          "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_annotations.json/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_multilingua.json/annotation/1",
+              "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_annotations.json/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -456,7 +456,7 @@
                 "width": 1280,
                 "height": 881
               },
-              "target": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_multilingua.json/canvas/1"
+              "target": "https://jpagna.github.io/Icnonoteca-IIIF-test/manifest_annotations.json/canvas/1"
             }
           ]
         }
@@ -470,4 +470,5 @@
     }
   ]
 }
+
 
