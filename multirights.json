@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/multirights.jsonn",
+  "id": "https://jpagna.github.io/Icnonoteca-IIIF-test/multirights.json",
   "type": "Manifest",
   "label": {
     "none": [
